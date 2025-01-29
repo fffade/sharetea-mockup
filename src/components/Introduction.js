@@ -30,8 +30,7 @@ function Introduction()
             </span>
 
             <p className="text-xl">
-                With high quality tea leaves and selected ingredients shipped directly from Taiwan, we are happy to bring to all bubble tea lovers in Columbus delicious and healthy beverages.
-                Welcome to the most bubblicious Taiwanese Boba Tea!
+                Indulge in the authentic taste of Taiwan with our handcrafted boba tea. Using premium ingredients, we create a unique and unforgettable experience for every customer.
             </p>
 
             <p className="text-xl">

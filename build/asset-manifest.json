@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf8b33b0.css",
+    "main.js": "/static/js/main.f50f6b1b.js",
+    "static/js/488.bd6b0632.chunk.js": "/static/js/488.bd6b0632.chunk.js",
+    "static/media/Louis George Cafe.ttf": "/static/media/Louis George Cafe.eacd87871e9a39013626.ttf",
+    "index.html": "/index.html",
+    "main.bf8b33b0.css.map": "/static/css/main.bf8b33b0.css.map",
+    "main.f50f6b1b.js.map": "/static/js/main.f50f6b1b.js.map",
+    "488.bd6b0632.chunk.js.map": "/static/js/488.bd6b0632.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf8b33b0.css",
+    "static/js/main.f50f6b1b.js"
+  ]
+}
