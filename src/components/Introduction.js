@@ -16,11 +16,11 @@ import {PrimaryButton} from "./Buttons";
 function Introduction()
 {
     return (
-        <article className="flex flex-col items-center gap-y-12 p-4">
+        <article className="flex flex-col w-full items-center gap-y-12 p-4">
             { /* Gallery */ }
-            <div className="flex flex-row max-w-full justify-between items-center gap-x-8 p-4">
+            <div className="flex flex-row max-w-full justify-center items-center gap-x-8 p-4">
                 <i className="text-3xl fa-solid fa-arrow-left"/>
-                <img className="rounded-3xl w-3/4 h-auto" src="/assets/ShareTea_Gallery1.avif" alt="Gallery" />
+                <img className="rounded-3xl w-full md:w-3/4 h-auto" src="/assets/ShareTea_Gallery1.avif" alt="Gallery" />
                 <i className="text-3xl fa-solid fa-arrow-right"/>
             </div>
 

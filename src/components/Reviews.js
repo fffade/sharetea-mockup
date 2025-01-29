@@ -18,7 +18,7 @@ function Reviews()
             <h2 className="text-3xl">Reviews</h2>
 
             { /* Gallery of reviews */ }
-            <div className="w-4/5 min-h-48 border-2 border-neutral-50 rounded-lg shadow-md p-8 flex flex-col items-start">
+            <div className="w-full md:w-4/5 min-h-64 md:min-h-48 border-2 border-neutral-50 rounded-lg shadow-md p-8 flex flex-col items-start">
                 { /* Profile author */ }
                 <span className="inline-flex flex-row h-min gap-x-4">
                     <img className="w-16 h-16 rounded-full" alt="Author Profile" src="/assets/profile.png" />

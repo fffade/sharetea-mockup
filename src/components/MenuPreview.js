@@ -14,7 +14,7 @@ function MenuCategory(props)
 {
     // TODO: Change to props.to
     return (
-        <Link to="#" className="text-xl text-red-500 shadow-sm font-bold pl-12 pr-12 p-2 rounded-lg bg-red-200 hover:scale-105 transition-all">{props.text}</Link>
+        <Link to="#" className="text-2xl w-full text-center sm:w-auto md:text-xl text-red-500 shadow-sm font-bold pl-12 pr-12 p-2 rounded-lg bg-red-200 hover:scale-105 transition-all">{props.text}</Link>
     );
 }
 
