@@ -20,13 +20,13 @@ function Reviews()
             { /* Gallery of reviews */ }
             <div className="w-4/5 min-h-48 border-2 border-neutral-50 rounded-lg shadow-md p-8 flex flex-col items-start">
                 { /* Profile author */ }
-                <span className="inline-flex flex-row h-16 gap-x-4">
-                    <img className="rounded-full" alt="Author Profile" src="/assets/profile.png" />
+                <span className="inline-flex flex-row h-min gap-x-4">
+                    <img className="w-16 h-16 rounded-full" alt="Author Profile" src="/assets/profile.png" />
                     <p className="text-xl">John Doe</p>
                 </span>
                 { /* Comment */ }
                 <span className="inline-flex flex-row justify-start gap-x-12">
-                    <span className="text-3xl font-bold">"</span>
+                    <span className="text-5xl ml-16">"</span>
                     <p id="comment-content" className="text-lg">
                         This is a nice review for the place!
                     </p>

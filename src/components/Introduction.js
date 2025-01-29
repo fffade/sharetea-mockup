@@ -50,7 +50,7 @@ function Introduction()
             { /* Order online button TODO: Change # to order */ }
             <span className="inline text-center">
               <PrimaryButton to="#" text="Order Online" />
-              <p className="text-lg m-4">and skip the line!</p>
+              <p className="text-lg m-8">and skip the line!</p>
             </span>
 
         </article>

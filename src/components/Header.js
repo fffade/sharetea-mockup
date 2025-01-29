@@ -17,17 +17,26 @@ function NavLink(props)
     );
 }
 
+function SocialLink(props)
+{
+    return (
+        <Link to={props.to} target="_blank" className="text-3xl hover:scale-110 transition-all">
+            <i className={props.icon}/>
+        </Link>
+    );
+}
+
 function Header()
 {
     return (
-      <header className="flex flex-col w-full p-2 pt-16 gap-y-16 border-b-2 border-neutral-100 justify-center text-center bg-neutral-50 ">
+      <header className="flex flex-col w-full pt-16 gap-y-16 border-b-2 border-neutral-100 justify-center text-center bg-neutral-50 ">
           { /* Upper Logo and Title section */ }
           <div className="flex flex-col items-center gap-y-4">
               <img className="w-auto" src="./assets/ShareTea_Logo.avif" alt="ShareTea Logo" />
               <h2 className="text-4xl">Sharetea Columbus</h2>
           </div>
           { /* Navigation bar */ }
-          <div className="grid grid-cols-3 w-full">
+          <div className="grid grid-cols-3 pr-8 pl-8 w-full">
               <Link to="menu" className="text-2xl inline-flex w-min p-4 gap-x-4 items-center">
                   <i className="fa-solid fa-bars" />Menu
               </Link>
@@ -36,8 +45,10 @@ function Header()
                   <NavLink to="contact" text="Contact"/>
                   <NavLink to="careers" text="Careers"/>
               </nav>
-              <nav>
-                  Socials
+              <nav className="flex flex-row w-1/5 justify-self-end items-center justify-around">
+                  <SocialLink to="https://www.instagram.com/shareteacolumbus/" icon="fa-brands fa-instagram" />
+                  <SocialLink to="https://www.facebook.com/shareteacolumbus" icon="fa-brands fa-facebook" />
+                  <SocialLink to="https://maps.google.com/?cid=6062379589342447713" icon="fa-solid fa-location-dot" />
               </nav>
           </div>
       </header>

@@ -26,7 +26,7 @@ function MenuPreview()
             <h2 className="text-3xl">Find Your Tea</h2>
 
             { /* List of categories */ }
-            <div className="flex flex-row flex-wrap overflow-wrap justify-center gap-2">
+            <div className="flex flex-row flex-wrap w-2/3 overflow-wrap justify-center gap-2">
                 <MenuCategory to="tea" text="Milk Tea" />
                 <MenuCategory to="tea" text="Fruit Tea" />
                 <MenuCategory to="tea" text="Fresh Tea" />
