@@ -20,8 +20,12 @@ This mock-up shows potential improvements to be made:
 ### How do I view this?
 
 First, clone the repository to your local computer:
-  git clone https://github.com/fffade/sharetea-mockup.git
+```
+git clone https://github.com/fffade/sharetea-mockup.git
+```
 
 Next, navigate to where you stored the repository, and then serve the current build:
-  npm install -g serve
-  serve -s build
+```
+npm install -g serve
+serve -s build
+```
